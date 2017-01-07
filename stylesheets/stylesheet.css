@@ -261,7 +261,7 @@ body {
 #myCanvas {
      position: absolute;
      display: block;
-     width: 100%;
-     height: inherit;
+     top: 0;
+     left: 0;
      z-index: 0;
 }
