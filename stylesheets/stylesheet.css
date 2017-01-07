@@ -252,3 +252,16 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+html,
+body {
+     margin: 0;
+}
+
+#myCanvas {
+     position: absolute;
+     display: block;
+     top: 0;
+     left: 0;
+     z-index: 0;
+}

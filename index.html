@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <title>mustapps | by theDarkStudio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <!--PARTICLE JS-->
+    <script src="https://npmcdn.com/particlesjs@1.0.2/dist/particles.min.js">
+    </script>
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '#myCanvas',
+          color: '#ffffff',
+          connectParticles: true,
+          minDistance: 140
+        });
+      };
+    </script>
   </head>
   <body>
     <section class="page-header">
+        <canvas id="myCanvas"></canvas>
       <h1 class="project-name">mustapps</h1>
       <h2 class="project-tagline">everyone&#39;s humanity needs it the most</h2>
     </section>
