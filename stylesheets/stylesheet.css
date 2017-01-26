@@ -63,23 +63,22 @@ a {
 .page-header_one {
   color: #fff;
   text-align: center;
-  background: #003973; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  background: #34e89e; /* fallback for old browsers */
+  padding: 10%;
 }
 
 .page-header_two {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #fff, #aaa);
+  background: #0575E6; /* fallback for old browsers */
+  padding: 10%;
 }
 
 .page-header_three {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #fff, #aaa);
+  background: #314755; /* fallback for old browsers */
+  padding: 10%;
 }
 
 @media screen and (min-width: 64em) {
