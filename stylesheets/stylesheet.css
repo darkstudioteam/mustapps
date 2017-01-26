@@ -253,6 +253,10 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
+.can_pad {
+  padding: 9%;
+}
+
 html,
 body {
      margin: 0;
